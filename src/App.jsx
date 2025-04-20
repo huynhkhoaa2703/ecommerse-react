@@ -1,13 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+// import Layout from "@components/Layout/Layout";
+// import Header from "@components/Header/Header";
+// import Footer from "@components/Footer/Footer";
+// import Button from "@components/Button/Button";
+// import Banner from "@components/Banner/Banner";
+import HomePage from "@components/HomePage/HomePage";
 
 function App() {
-  
-
-  return (
-    <div>Test</div>
-  )
+    return (
+        <>
+            <HomePage />
+        </>
+    );
 }
 
-export default App
+export default App;
